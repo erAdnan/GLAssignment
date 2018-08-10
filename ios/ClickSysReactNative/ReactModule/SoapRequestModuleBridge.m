@@ -1,0 +1,50 @@
+/*
+    created by adnan 07.06.2018
+
+    //--SoapRequestModuleBridge for connecting soapRequest module
+*/
+
+#import <React/RCTBridgeModule.h>
+
+@interface RCT_EXTERN_MODULE(SoapRequestModule, NSObject)
+
+RCT_EXTERN_METHOD(verifyAppLicence)
+RCT_EXTERN_METHOD(verifyLoginDetails)
+RCT_EXTERN_METHOD(forgotPasswordByEmailUsername)
+RCT_EXTERN_METHOD(changePassword)
+RCT_EXTERN_METHOD(getOnGoingSessions)
+RCT_EXTERN_METHOD(getScheduleSessionForTeacher)
+RCT_EXTERN_METHOD(getSubjectsOfTeacher)
+RCT_EXTERN_METHOD(startSessionFromMobile)
+RCT_EXTERN_METHOD(getLastContinueSession)
+RCT_EXTERN_METHOD(checkIfAnySessionForTeacher)
+RCT_EXTERN_METHOD(endSessionFromMobile)
+RCT_EXTERN_METHOD(getAllStudentsOfSchool)
+RCT_EXTERN_METHOD(teacherScheduleSession)
+RCT_EXTERN_METHOD(startCurrentScheduleSession)
+RCT_EXTERN_METHOD(getScheduleSessions)
+RCT_EXTERN_METHOD(sendAbsenceSMS)
+RCT_EXTERN_METHOD(addSubjectFromMobile)
+RCT_EXTERN_METHOD(skipScheduledSession)
+RCT_EXTERN_METHOD(getStudentInfoForTheSession)
+RCT_EXTERN_METHOD(removeStudentFromSubjectBySessionID)
+RCT_EXTERN_METHOD(regretStudentCheckIN)
+RCT_EXTERN_METHOD(undoStudentCheckIN)
+RCT_EXTERN_METHOD(insertStudentAbsenceFromMobile)
+RCT_EXTERN_METHOD(getSessionSMSReplies)
+RCT_EXTERN_METHOD(getStudentAbsenceForSession)
+RCT_EXTERN_METHOD(getStudentInfoById)
+RCT_EXTERN_METHOD(getParentInfoById)
+RCT_EXTERN_METHOD(getSMSHistory)
+RCT_EXTERN_METHOD(makeStudentAttendanceFromMobile)
+RCT_EXTERN_METHOD(getAllActiveSessions)
+RCT_EXTERN_METHOD(getAllStudentsCheckedInToActiveSessions)
+RCT_EXTERN_METHOD(getPollForStudentAttendance)
+RCT_EXTERN_METHOD(pollCommonForMobile)
+RCT_EXTERN_METHOD(getAllSubjectsByUsrIdAndRole)
+RCT_EXTERN_METHOD(getAllStudentsByClassID)
+RCT_EXTERN_METHOD(getClassesByUserIDRole)
+RCT_EXTERN_METHOD(getAllSubjectsByClassID)
+RCT_EXTERN_METHOD(getPieChartReport)
+
+@end

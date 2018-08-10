@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFF</color>
+    <color name="transperent">#00000000</color>
+    <color name="tra_white">#6FFFFFFF</color>
+    <color name="tra_black">#2fDEDEDE</color>
+    <color name="gray">#444444</color>
+    <color name="light_gray">#B9B8B8</color>
+    <color name="red">#E40B0B</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <!-- Tab Colors -->
+
+    <color name="tab_line">#60FFFFFF</color>
+    <color name="tab_transparent_highlight">#28FFFFFF</color>
+    <color name="tab_transparent_dark">#16FFFFFF</color>
+    <color name="tab_transparent_light">#38FFFFFF</color>
+
+</resources>
